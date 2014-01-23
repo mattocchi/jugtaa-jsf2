@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core" xmlns:p="http://xmlns.jcp.org/jsf/passthrough" xmlns:widget="http://java.sun.com/jsf/composite/widget">
+<!-- <f:view locale="#{beanSessione.locale}" encoding="UTF-8" contentType="text/html"> -->
+<h:head>
+	<title><h:outputText value="#{softwareui.title}" /></title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="icon" href="favicon.ico" />
+
+	<!-- http://twitter.github.io/bootstrap/getting-started.html#html-template -->
+
+	<!-- Framework CSS -->
+	<h:outputStylesheet library="bootstrap/bootstrap-2.3.2/css" name="bootstrap.min.css" />
+	<h:outputStylesheet library="bootstrap/bootstrap-2.3.2/css" name="bootstrap-responsive.min.css" />
+
+	<!-- <h:outputStylesheet library="css" name="default.css" /> -->
+
+</h:head>
+<h:body>
+
+	<ui:insert name="body">Default body</ui:insert>
+
+	<h:outputScript library="jquery" name="jquery-1.10.2.js"></h:outputScript>
+	<h:outputScript library="bootstrap/bootstrap-2.3.2/js" name="bootstrap.min.js"></h:outputScript>
+
+</h:body>
+<!-- </f:view> -->
+</html>
+
